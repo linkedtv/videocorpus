@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://semanticlab.net/ontology/recognyze#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:psys="http://proton.semanticweb.org/protonsys#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:pext="http://proton.semanticweb.org/protonext#">
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Product">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Work">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Misc">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Event">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Organisation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Location">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Person">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#hasURI">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Entity">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Product">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Work">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Misc">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Event">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Organisation">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Location">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://semanticlab.net/ontology/recognyze#Person">
+	<rdfs:subClassOf rdf:resource="http://semanticlab.net/ontology/recognyze#Entity"/>
+</rdf:Description>
+
+</rdf:RDF>

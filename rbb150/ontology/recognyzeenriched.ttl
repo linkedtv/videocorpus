@@ -1,0 +1,354 @@
+@prefix : <http://semanticlab.net/ontology/recognyze#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pext: <http://proton.semanticweb.org/protonext#> .
+@prefix psys: <http://proton.semanticweb.org/protonsys#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix recognyze: <http://semanticlab.net/ontology/recognyze#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+recognyze:Agent a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation,
+        recognyze:Person,
+        recognyze:Place .
+
+recognyze:Airline a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:Airport a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:ArchitecturalStructure a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Aristocrat a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:Athlete a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:Band a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:BodyOfWater a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Bridge a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Broadcaster a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation,
+        recognyze:Place .
+
+recognyze:Building a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:City a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Company a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:Country a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Cyclist a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:EducationalInstitution a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Election a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:ElectionDiagram a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:FigureSkater a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:Film a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Work .
+
+recognyze:Hospital a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Infrastructure a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Island a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Lake a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Legislature a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation,
+        recognyze:Place .
+
+recognyze:Library a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Location a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:MilitaryConflict a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:MilitaryStructure a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Misc a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:Mountain a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:NaturalPlace a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Non-ProfitOrganisation a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:Painter a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:PeriodicalLiterature a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Work .
+
+recognyze:PoliticalParty a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:Politician a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:PopulatedPlace a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Product a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:PublicTransitSystem a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:RadioStation a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation,
+        recognyze:Place .
+
+recognyze:Region a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:River a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Road a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:RouteOfTransportation a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Settlement a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Skyscraper a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:SoccerClub a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:SoccerPlayer a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:SocietalEvent a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:SportFacility a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:SportsEvent a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:SportsTeam a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:Square a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Stadium a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Station a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Stream a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:TelevisionShow a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Work .
+
+recognyze:TelevisionStation a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Organisation .
+
+recognyze:TennisPlayer a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:TennisTournament a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:Tournament a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Event .
+
+recognyze:Village a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Place .
+
+recognyze:Website a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Work .
+
+recognyze:Writer a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Person .
+
+recognyze:WrittenWork a owl:Class ;
+    rdfs:label "This comment described derived concepts" ;
+    rdfs:comment "The class of all derived concepts" ;
+    rdfs:subClassOf recognyze:Work .
+
+recognyze:hasURI a owl:AnnotationProperty .
+
+recognyze:Work a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:Entity a owl:Class .
+
+recognyze:Event a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:Person a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .
+
+recognyze:Organisation a owl:Class ;
+    rdfs:subClassOf recognyze:Entity .

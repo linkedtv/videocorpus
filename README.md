@@ -25,7 +25,7 @@ to local (elections) or historical events (e.g. anniversaries of the 1953 East G
 
 This corpus is (c) 2015-2016, MODUL University Vienna
 
-It is distributed under CC-BY-NC-ND 3.0 license. Please refer to the LICENSE file for further information.
+It is distributed under CC-BY-NC-ND 3.0 license. Please refer to the [LICENSE](https://github.com/linkedtv/videocorpus/blob/master/LICENSE) file for further information.
 
 [CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/)
 

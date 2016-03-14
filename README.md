@@ -23,12 +23,24 @@ to local (elections) or historical events (e.g. anniversaries of the 1953 East G
 
 ## LICENSE
 
- [CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+This corpus is (c) 2015-2016, MODUL University Vienna
+
+It is distributed under CC-BY-NC-ND 3.0 license. Please refer to the LICENSE file for further information.
+
+[CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/)
 
 ## ACKNOWLEDGEMENTS
 
-**Transcripts** provided by RBB through the LinkedTV project.
+**Transcripts** were provided by [Rundfunk Berlin-Brandenburg - RBB](https://www.rbb-online.de/) through the [LinkedTV](http://www.linkedtv.eu/) project.
 
-**Corpus** belongs to MODUL University Vienna.
+**Corpus** belongs to [MODUL University Vienna](https://www.modul.ac.at/).
+
+**Annotations** were created by anonymous annotators under the supervision of the development team.
+
+**Development** was done by Adrian M.P. Brasoveanu under the supervision of Dr. Lyndon Nixon, Prof. Dr. Albert Weichselbraun, and Prof. DDr. Arno Scharl at MODUL University Vienna.
  
+## DISCLAIMER
 
+This software, its code and documentation, is made available without guarantee of correctness or completeness. The software owner gives permission for the use of this software without liability.
+
+This software, its code and documentation, is made available under a LICENSE. Redistributions of the software shall include the same LICENSE in the software package. Installations of the software should also refer to this LICENSE.

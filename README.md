@@ -19,3 +19,16 @@ It contains several folders:
 
 Due to the regionality of the content, the corpus also contains frequent use of shortened names for entities, direct or indirect references 
 to local (elections) or historical events (e.g. anniversaries of the 1953 East German Uprising or of Kennedy's visit to Berlin from 1963).
+
+
+## LICENSE
+
+ [CC-BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/)
+
+## ACKNOWLEDGEMENTS
+
+**Transcripts** provided by RBB through the LinkedTV project.
+
+**Corpus** belongs to MODUL University Vienna.
+ 
+

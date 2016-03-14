@@ -13,9 +13,9 @@ It contains several folders:
 - **ontology** - original and enriched ontology (created by automatically adding subtypes to the original ontology)
 - **gold** - gold standards in various formats (csv, nif, etc).
 
-Regional content from Berlin and Brandenburg.
+**Regionality**: content from Berlin and Brandenburg.
 
-News topics: floods, traffic jams, immigration, sports and political events, and local administration. 
+**News topics**: floods, traffic jams, immigration, sports and political events, and local administration. 
 
 Due to the regionality of the content, the corpus also contains frequent use of shortened names for entities, direct or indirect references 
 to local (elections) or historical events (e.g. anniversaries of the 1953 East German Uprising or of Kennedy's visit to Berlin from 1963).

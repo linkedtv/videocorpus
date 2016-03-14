@@ -1,0 +1,767 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/document77#char=1391,1398>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Polizei"^^xsd:string ;
+        nif:beginIndex        "1391"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Polizei> .
+
+<http://example.org/document76#char=1403,1410>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "zow, di"^^xsd:string ;
+        nif:beginIndex        "1403"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Kartzow> .
+
+<http://example.org/document77#char=382,392>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Ulli Zelle"^^xsd:string ;
+        nif:beginIndex        "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Ulli_Zelle> .
+
+<http://example.org/document76#char=0,2489>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2489"^^xsd:nonNegativeInteger ;
+        nif:isString    "Wie hier in der Zossener Straße in\n      Kreuzberg konnten Fans\n zwischen 30 Gratis-Titeln auswählen.\n Der Comic-Tag ist eine gemeinsame\n  Aktion von 19 Comic-Verlagen.\n Sie wollen damit auf die Vielfalt\n ihres Genres aufmerksam machen.\n Man hat derzeit den Eindruck,\n die Natur will jetzt mit aller Macht                                \n    den Winter vergessen machen.\n Es sprießt und grünt,\n dass es eine wahre Freude ist.\n Gartenbesitzer kommen kaum nach\nmit Rasen mähen und Unkraut rupfen.\n Und natürlich mit Blüten genießen.\n Manch einer von ihnen möchte seine\n Pracht gern mit anderen teilen.\n An diesem Wochenende\nist wieder die Gelegenheit dazu,\n bei den Offenen Gärten 2013\n   in Berlin und im Umland.\n Wir testeten\n  mit einem Profi die Gärten.\n Jörg Näthe ist 30 Jahre Chefgärtner\nder Freundschaftsinsel in Potsdam.\n Auftakt der Tour in einem\nprivaten Hausgarten in Falkensee.\n Hier ein bunter Mix zwischen Bonsai\n und Fuchsien, Exotik und Heimat.\n Etwa 700 Sorten Fuchsien pflanzten\n  die Gartenbesitzer in Kübeln.\n Die kommen gerade\naus dem Winterschlaf im Untergrund.\n Hier drunter ist die Grube\n    und ich gehe da runter.\n Und mein Mann reicht zu mir runter.\n Hat den Nebeneffekt,\nich brauche kein Fitnessstudio.\n Nur ein paar Meter weiter\nein Hauch Fernost in Falkensee.\n Mit einigen Koi-Karpfen im Teich\nund ganz vielen Bonsai-Bäumchen.\n Unsere 2. Station: ein Bauerngarten\n   in Kartzow, dicht bewuchert.\n Hier wird die Schönheit\n  des Nutzgartens zelebriert.\n Hier machen die Besitzer\n       Selbstversorgung.\n Da wird nur weniges dazu gekauft,\n vieles aus dem Garten geerntet.\n Manch Hobbygärtner kann sich da noch                                \n    etwas abgucken, in Kartzow.\n Schon zum 12. Mal ist die\nGastgeberin, eine Blumenmalerin,\n bei der Aktion dabei.\n Sie hat ihr Gartentor\n    für jedermann geöffnet.\n Es hat was von einem Heiligtum,\n          ein Garten.\n Es ist wie ein großes Zimmer.\n Und es ist eine besondere\n    feierliche Atmosphäre,\n Menschen in einem Garten\n          zu sprechen.\n Egal, ob es hier bei uns ist\n       oder in der Natur.\n Es ist eine\n  feierliche Bühne der Natur.\n Offene Gärten ist die 3. Bühne\nauf unserer Tour am Rande Potsdams.\n Die beiden sind\n    Landschaftsarchitekten.\n Sie haben sich etwas\nganz besonderes einfallen lassen.\n Klare Formen, viele Hecken,\n   ein modernes Gartenhaus.\n Kleingärten kennt man\n       ja sonst anders.\n Nicht immer unbedingt schlecht,\n        aber ich denke:\n Das wäre hier ein gutes Beispiel.\n "^^xsd:string .
+
+<http://example.org/document75#char=578,589>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document72#char=200,215>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Matthias Sammer"^^xsd:string ;
+        nif:beginIndex        "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Matthias_Sammer> .
+
+<http://example.org/document75#char=0,768>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "768"^^xsd:nonNegativeInteger ;
+        nif:isString    "Hier gibt es auch weniger Menschen\n         als angenommen.\n Brandenburg liegt jedoch\n   im Bundesdurchschnitt und\n muss keine Rückzahlung befürchten.\n Der Tag fing so schön an, teilweise\nschien bis zum Nachmittag die Sonne.\n Aber dann ging es los.\n Z.T.äußerst heftige Regenfälle\nsuchten Berlin und Brandenburg heim.\n Die Unwetter waren so stark,\n dass der Mobilfunk bei mehreren\nAnbietern für Stunden ausfiel.\n Auf S-Bahngleise fielen Bäume\n und behinderten den Verkehr.\n Als wir diese Bilder am späten\nNachmittag in Babelsberg machten,\n zogen Gewitter und Sturmböen\n    über Brandenburg hinweg.\n Kurzzeitig gab es\n    sogar Unwetterwarnungen.\n In der Spandauer Wilhelmstadt schlug                                \n     der Blitz in den Dachstuhl\n eines Hauses ein.\n "^^xsd:string .
+
+<http://example.org/document71#char=1435,1444>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Parlament"^^xsd:string ;
+        nif:beginIndex        "1435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Parlament> .
+
+<http://example.org/document79#char=496,510>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Königin Maxima"^^xsd:string ;
+        nif:beginIndex        "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/M%C3%A1xima_der_Niederlande> .
+
+<http://example.org/document77#char=115,126>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Schöneweide"^^xsd:string ;
+        nif:beginIndex        "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Sch%C3%B6neweide> .
+
+<http://example.org/document71#char=0,1465>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1465"^^xsd:nonNegativeInteger ;
+        nif:isString    "Man muss alle Möglichkeiten\n         ausschöpfen,\n die es da vorher noch gibt.\n Daher kann eine solche Einrichtung\n eine sinnvolle Alternative sein.\n Die meisten schweren Vorwürfe\n beziehen sich bisher\n     auf die Zeit vor 2010.\n Die Tage der Haasenburg\n könnten dennoch gezählt sein.\n Autofahrer auf der Stadtautobahn\nhaben es gerade richtig schwer.\n Außerdem: Abschiedsparty von\n     US-Botschafter Murphy\n heute am amerikanischen\n       Nationalfeiertag.\n Munitionsschrott\n     aus beiden Weltkriegen\n wurde auf einem Grundstück in Meuro\nim LK Oberspreewald-Lausitz entdeckt\n Gegen den 30 Jahre alten Eigentümer\n          wird ermittelt.\n Wegen des Verdachts auf Verstoß\n gegen das\n Kriegs-Waffen-Kontrollgesetz.\n Sichergestellt wurden Kartuschen,\nGranaten und andere Sprengkörper.\n Brandenburgs Krippen brauchen\n    dringend mehr Erzieher.\n Zu diesem Ergebnis kommt der\nKitareport der Bertelsmann Stiftung.\n Danach betreut eine Erzieherin in\n     Brandenburg rechnerisch\n mehr als sechs Kinder\n   in der Ganztagsbetreuung.\n Damit liegt die Mark\n      am vorletzten Platz.\n In Bremen kümmert sich eine\nErzieherin um halb so viele Kinder.\n Mehr als 20 Jahre nach dem Beschluss                                \n  zum Regierungsumzug nach Berlin\n sind fast alle damit verbundenen\n   Bauprojekte abgeschlossen.\n Nach Angaben von\n  Senatsbau-direktorin Lüscher\n sind von 470 Projekten für Regierung                                \n  und Parlament 80 Prozent fertig.\n "^^xsd:string .
+
+<http://example.org/document71#char=787,799>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburgs"^^xsd:string ;
+        nif:beginIndex        "787"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document76#char=1278,1287>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Falkensee"^^xsd:string ;
+        nif:beginIndex        "1278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Falkensee> .
+
+<http://example.org/document72#char=830,836>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "830"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "836"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document71#char=1387,1396>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Regierung"^^xsd:string ;
+        nif:beginIndex        "1387"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Regierung> .
+
+<http://example.org/document73#char=701,709>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Teldafax"^^xsd:string ;
+        nif:beginIndex        "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document73#char=0,3543> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Teldafax> .
+
+<http://example.org/document72#char=951,958>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "o2world"^^xsd:string ;
+        nif:beginIndex        "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/O2_World_Berlin> .
+
+<http://example.org/document73#char=1167,1175>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Teldafax"^^xsd:string ;
+        nif:beginIndex        "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document73#char=0,3543> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Teldafax> .
+
+<http://example.org/document72#char=0,1845>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1845"^^xsd:nonNegativeInteger ;
+        nif:isString    "Die Fußball-Bundesliga\nfeiert ihr 50-jähriges Jubiläum\n und wir zeigen morgen ab 22 Uhr\n      das \"Liga-Fieber\".\n Die Themen sind\n die \"Macher und Meilensteine\".\n U.a. werden Günter Netzter\n      und Matthias Sammer\n aus dem Nähkästchen plaudern.\n Andrea bitte.\n Schick gemacht haben sich auch die,\ndie sich eine Karte leisten können\n - für ein seltenes Konzert:\n Barbra Streisand\n  singt heute Abend in Berlin.\n Aus Protest hatte die gläubige Jüdin\n jahrelang Auftritte\n   in Deutschland abgelehnt.\n Der Weltstar ist\n auf ausgesuchter Europatournee\n - nur 5 Konzerte.\n Eins davon in der O2 World\n- danach gehts weiter nach Israel.\n So ein Ausnahmekonzert lockt selbst\n  gestandene Promis ins Publikum.\n Und bevor die 71-jährige Diva\n überhaupt einen Ton gesagt\n     oder gar gesungen hat,\n gibt's schon Standing Ovations.\n Hallo Berlin.\n Wie schön wieder hier zu sein.\n Sie verbreitet\n einfach immer noch Gänsehaut.\n Musik.\n Barbara Streisand in der o2world.\n Für sie sind die Menschen\naus der ganzen Welt hergekommen.\n Ich komme aus Zimbabwe.\n Ich komme aus Florida, ich bewundere                                \n      Barbara Streisand sehr.\n Ich fliege zu jedem ihrer Konzerte.\n Vielleicht ist sie die\n       letzte große Diva.\n Gefühlvoll und kraftvoll.\n Ihre Stimme zieht viele\n   nach wie vor in den Bann.\n Es ist Ihre Aura,\n die bestimmte Leute anspricht.\n Diese Faust bewundernswert.\n Diese Frau ist bewundernswert.\n Die Ausstrahlung und\n      Leistung sind toll.\n Ich habe Taschentücher eingepackt.\n Ich werde wahrscheinlich in\n      Tränen ausbrechen.\n Und das mit 71 Jahren.\n Moment, ich bin auch bald 71.\n Für Ihre Barbara haben sich viele\n         schick gemacht.\n Viele kennen ihre Lieblingssongs\n           auswendig.\n Uhhhh..\n nicht schlecht,\n  aber hören wir lieber rein:\n Sie kann es eben einfach auch\n        mit 71 Jahren.\n "^^xsd:string .
+
+<http://example.org/document79#char=45,51>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Dvorák"^^xsd:string ;
+        nif:beginIndex        "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Anton%C3%ADn_Dvo%C5%99%C3%A1k> .
+
+<http://example.org/document78#char=0,1875>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1875"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ein nur einem Wort bestehendes,\n       surrealistisches,\n aber angeblich sehr amüsantes Stück.\n Thomas Oberender, Intendant\nder Berliner Festspiele ist bei uns.\n Ab morgen beginnt eigentlich\n eine Rückschau auf 50\n     Jahre Theatertreffen.\n Damals wurde es eröffnet\n  als Freie Volksbühne Berlin.\n Das radikale sind die Positionen der                                \n Künstler und Regisseure in diesen\n Aufführungen.\n Das radikale ist\n natürlich auch wieder das über\n   fordernde Zusammenkommens\n aller Beteiligten.\n Es ist ein Schnappschuss,\n      eine Art Polaroid.\n Kucken in eine Art Bild\n       von sich selbst.\n Darin wird\n etwas flüchtiges festgehalten.\n Wie Staunen über uns\n     selbst, über das Land.\n Ist eine Bestandsaufnahme\n        unseres Lebens.\n Man schärft die eigenen Positionen.\n Man lässt sich\n anregen, irritieren, erfreuen.\n Eingeladen werden immer die zehn\nbemerkenswertesten Inszenierungen.\n Die Auswahl trifft eine Jury.\n Sie ist ca. 160 Tage\n   im Jahr beschäftigt damit.\n Es wird verhindert, dass das\n         Theatertreffen\n unter bestimmten Ideologien steht.\n Es gibt sehr Widersprüchliches\n           zu sehen.\n In unseren multimedialen Zeiten,\n wie wollen Sie da das kommen\n        noch begeistern?\n Theater ist viel gestalteter\n           geworden.\n Es ist interdisziplinärer geworden.\n Es ist ein Medium\n  für junge Leute, immer noch.\n Wir brauchen uns nicht viele Sorgen\nmachen, dass die nächste Generation\n es vielleicht nicht mehr annähernd.\n Sie sind durch das Theater schon\n         stark geprägt.\n Alle 10 sind für mich Gewinner.\n Mein Favorit ist sehr berührend und\n          verunsichernd.\n Das Theatertreffen ist mehr\n  als diese zehn Aufführungen.\n Es ist ein Riesenkosmos dumherum.\n Wie machen dieses Jahr\n        ein großes Fest.\n Dazu gehören zum Beispiel Busfahrten                                \n          durch die Stadt.\n "^^xsd:string .
+
+<http://example.org/document74#char=503,509>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "503"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document74#char=278,289>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Deutschland"^^xsd:string ;
+        nif:beginIndex        "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Deutschland> .
+
+<http://example.org/document72#char=926,943>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Barbara Streisand"^^xsd:string ;
+        nif:beginIndex        "926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Barbra_Streisand> .
+
+<http://example.org/document76#char=16,31>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Zossener Straße"^^xsd:string ;
+        nif:beginIndex        "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Zossener_Stra%C3%9Fe> .
+
+<http://example.org/document75#char=654,676>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Spandauer Wilhelmstadt"^^xsd:string ;
+        nif:beginIndex        "654"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Wilhelmstadt> .
+
+<http://example.org/document75#char=519,529>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Babelsberg"^^xsd:string ;
+        nif:beginIndex        "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Babelsberg> .
+
+<http://example.org/document76#char=878,887>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Falkensee"^^xsd:string ;
+        nif:beginIndex        "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Falkensee> .
+
+<http://example.org/document80#char=0,1327>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1327"^^xsd:nonNegativeInteger ;
+        nif:isString    "Dazu gehören zum Beispiel Busfahrten                                \n          durch die Stadt.\n Es ist eine wirkliche\n Auseinandersetzung mit Theater\n und Politik.\n Wir freuen uns darauf.\n Mehr zum Jubiläums-Theatertreffen\n         finden Sie auf:\n Jetzt weitere Nachrichten\n  aus der Region im Überblick.\n Das Dach des Berliner Hauptbahnhofs\n könnte nun doch auf das ursprünglich                                \n  geplante Maß verlängert werden.\n Die Bahn will das\n  bis zur Sommerpause prüfen.\n Die Verlängerung wird von Haushalts-                                \npolitikern des Bundestags gefordert.\n Das Dach war verkürzt worden,\n    damit der Hauptbahnhof\n rechtzeitig zur Fußball-WM 2006\n    eröffnet werden konnte.\n Bundesernährungsministerin Aigner\n      hat sich bei Vivantes\n über die Kampagne\n\"Zu gut für die Tonne\" informiert.\n Übriggebliebene, verpackte Lebens-\n mittel werden nicht weggeworfen,\n sondern wiederverwertet.\n  Z.B. Butter oder Marmelade.\n Vivantes konnte dadurch\n    innerhalb eines Jahres\n die Lebensmittelabfälle\n    um 90 Tonnen reduzieren.\n Tatjana Jury war zu Gast\n    bei Antenne Brandenburg.\n Die Moderatorin\n    von Brandenburg aktuell\n stellte sich im Rahmen\n     des 'Star-Frühstücks'\n zwei Stunden lang den Fragen\n der Radio-Kollegen und Hörer.\n Anlass war\n  der 10. Geburtstag des rbb.\n "^^xsd:string .
+
+<http://example.org/document75#char=289,295>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document71#char=545,569>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "LK Oberspreewald-Lausitz"^^xsd:string ;
+        nif:beginIndex        "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Landkreis_Oberspreewald-Lausitz> .
+
+<http://example.org/document79#char=0,678>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "678"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ihr Ehemann, Simon Rattle,\n       wird neben Dvorák\n auch Beethovens 6. dirigieren.\n Der rbb überträgt das Konzert live\naus Prag morgen von 11 bis 13 Uhr\n im Ersten und im rbb-Kulturradio.\n Seit die Niederlande beim Fußball\n    keine große Rolle spielt,\n hat sich das Verhältnis zu\nden Deutschen irgendwie gelockert.\n Womöglich könnte\nsogar Wohnwagen an Wohnwagen stehen.\n Auch deshalb feiern wir heute mit:\n Unsere Nachbarn\n    haben einen neuen König!\n Willem-Alexander und seine\n  bezaubernde Königin Maxima.\n Die Mama jetzt wieder\n      Prinzessin Beatrix.\n Nach 33 Jahren legte jetzt\n    ihr Sohn seinen Eid ab.\n So sieht die frisch gebackene\n  Kronprinzessin Amalia aus.\n "^^xsd:string .
+
+<http://example.org/document75#char=300,311>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document77#char=353,360>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Polizei"^^xsd:string ;
+        nif:beginIndex        "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Polizei> .
+
+<http://example.org/document72#char=175,189>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Günter Netzter"^^xsd:string ;
+        nif:beginIndex        "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/G%C3%BCnter_Netzer> .
+
+<http://example.org/document72#char=477,488>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Deutschland"^^xsd:string ;
+        nif:beginIndex        "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Deutschland> .
+
+<http://example.org/document71#char=1081,1087>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bremen"^^xsd:string ;
+        nif:beginIndex        "1081"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Bremen> .
+
+<http://example.org/document72#char=624,630>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Israel"^^xsd:string ;
+        nif:beginIndex        "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Israel> .
+
+<http://example.org/document76#char=690,696>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document75#char=61,72>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document75#char=0,768> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document71#char=1330,1358>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Senatsbau-direktorin Lüscher"^^xsd:string ;
+        nif:beginIndex        "1330"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Regula_L%C3%BCscher> .
+
+<http://example.org/document77#char=1160,1171>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Real Madrid"^^xsd:string ;
+        nif:beginIndex        "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Real_Madrid> .
+
+<http://example.org/document77#char=1926,1933>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Polizei"^^xsd:string ;
+        nif:beginIndex        "1926"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Polizei> .
+
+<http://example.org/document71#char=890,910>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bertelsmann Stiftung"^^xsd:string ;
+        nif:beginIndex        "890"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Bertelsmann_Stiftung> .
+
+<http://example.org/document77#char=0,2353>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2353"^^xsd:nonNegativeInteger ;
+        nif:isString    "Der Aufzug ging an ein paar Punkten\n vorbei, die wir als neuralgischen\n Ansagen.\n Es blieb ruhig.\n Die Stimmung in Schöneweide\n    aber bleibt angespannt.\n Das Antifa-Konzert am Abschlussort\nsoll bis nach Miternacht andauern.\n Mehr Polizisten als Partygäste,\n so begann die Walpurgisnacht\n     im Berliner Mauerpark.\n Das Gelände ist abgesperrt und\ndie Polizei kontrolliert genau.\n Ulli Zelle ist vor Ort.\n Füllt es sich denn langsam\n   und wie ist die Stimmung?\n Mittlerweile ist das\n Verhältnis hier etwas gekippt.\n Es gibt jetzt wieder etwas\nmehr Partygäste als Polizisten.\n Ca. 3000 Beamte sind im Einsatz.\n Es wird hier getanzt.\n Ein paar Hexen sind auch dabei.\n Über dem Wedding ist\n es rot, da unten in der Arena\n im Mauerpark hat man sich um\n      ein Feuer gesammelt.\n Es wurde dort auch\n    eine Suppe warm gemacht.\n Es ist eine schöne Partystimmung.\n Hier gibt es riesige Seifenblasen,\ndie von Künstlern gemacht werden.\n Über allem wacht das\n      Anti-Konflikt-Team.\n Es sind nicht so viele gekommen, das                                \n  liegt möglicherweise am Wetter.\n Es gibt aber auch die\n      Fußball-Konkurrenz.\n Weit ist das Rückspiel von\nReal Madrid gegen Borussia Dortmund.\n Zehn Jahre ohne Randale\n     ist man ausgekommen.\n Die Freunde des Mauerparks sind\n      sehr froh darüber.\n Wir sind sehr froh darüber,\n    dass die Zusammenarbeit\n mit dem Bezirksamt\n  unter Polizei so gut läuft.\n Viele ehrenamtliche Menschen sind\n         hier unterwegs.\n Sie müssen\nsich hier Einlasskontrollen gefallen\n lassen, das machen aber viele.\n Die meisten machen das mit,\n    es ist eine gute Party.\n Viele verstehen, was hier nötig\nist, um für Sicherheit zu sorgen.\n Es ist Vergangenheit, das am\nMauerpark Randale begonnen hat.\n Es gibt noch eine Demonstration\nim Wedding, vom Gesundbrunnen.\n Sie begann vor 1 Stunde.\n Sie wurde\nvon vielen Polizisten begleitet.\n Es geht\ngegen Zwangsräumung, Mietsteigerung.\n Viel Polizei, wie man sah.\n Von der Berliner Polizei habe ich\n      jetzt jemanden hier.\n Es sind jetzt 1000 Menschen wir\n        demonstrieren.\n Es wurden einige\n  Feuerwerkskörper angezündet.\n Bis erstes friedlich.\n In Schöneweide blieb es ruhig.\n Es gab dort aber einige Festnahmen.\n Ist der aktuelle Stand?\n Auch dort sind noch 1000 Menschen\n         am Ende Platz.\n Es blieb insgesamt störungsfrei.\n Vielen Dank Ihnen beiden.\n "^^xsd:string .
+
+<http://example.org/document73#char=0,3543>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3543"^^xsd:nonNegativeInteger ;
+        nif:isString    "in Eisenhüttenstadt\n      nicht alleine lösen.\n Wir Verbraucher\n    werden immer kritischer.\n Was steckt wirklich hinter dem\n       Sparpaket der Bank\n und ist in der Biomarmelade\n    wirklich nur Bio drin?\n Nach Lebensmittelskandalen\nund Datenmissbrauch im Internet\n wollen wir es genauer wissen.\n Auch dabei helfen\n    die Verbraucherzentralen\n in Berlin und Brandenburg.\n Auch, wenn Ärger droht. Und\ndicke Rechnungen ins Haus flattern.\n Gabriele Bandow hat die Nase voll\n   von fragwürdigen Mahnungen.\n Jetzt soll die\n  Verbraucherzentrale helfen.\n Es geht um Stromrechnungen, ein Fall                                \n für die Beraterin Sylvia Schönke.\n Gabriele Bandow hatte einst\nihren Strom von Teldafax bezogen.\n Das Unternehmen\n     ist inzwischen pleite.\n Rund 500 Euro,\n  die sie voraus gezahlt hat,\n will die Potsdamerin\n    dadurch verloren haben.\n Trotzdem will ein Inkassounternehmen                                \n      plötzlich Geld von ihr.\n Dieses Inkasso-Unternehmen\n  hat Forderung und droht mir.\n Alltag für die Leiterin\n der Potsdamer Verbraucherzentrale,\n         Sylvia Schönke.\n Sie prüft die Unterlagen\nund lässt sich den Fall schildern.\n Teldafax und dessen\n      Inkasso-Unternehmen\n sind in der Verbraucherzentrale\n       bestens bekannt.\n Wir haben hier etliche Verbraucher,\n die Post bekommen\n    von diesem Inkassobüro.\n Forderungen werden auch aufgestellt,\n die nicht\n   unbedingt berechtigt sind.\n Teilweise werden fehlerhafte\n     Abrechnungen gemacht.\n Die Beratungsstelle in Potsdam\n     direkt am Hauptbahnhof\n ist nur eine von 33 Anlaufstellen,\n die die Verbraucherzentrale\n      in Brandenburg hat.\n Gut 100 Mitarbeiter\n      sind für sie tätig.\n Pro Jahr wird sie rund 70.000\nMal von Hilfesuchenden kontaktiert.\n Es gibt aber auch noch\ndie Arbeit hinter den Kulissen.\n Die findet z.B.in dem eher\n     unscheinbaren Gebäude\n der Geschäftstelle\n    am Rande Potsdams statt.\n Hier geht es um Grundsätzliches\n     im Verbraucherschutz.\n Und, wenn notwendig,\n auch um langwierige Prozesse.\n Hartmut Müller\nschreckt der Gang vor Gericht nicht.\n Der Jurist knöpfte sich z.B.\n die Preisanpassungsklauseln\n   von Erdgasanbietern vor.\n Die zwangen Verbraucher,\n Preissteigerungen\n      einfach hinzunehmen.\n Wir haben daraufhin\n    die Versorger verklagt.\n Und bekamen letztendlich\n beim Bundesgerichtshof Recht.\n Das heißt,\n diese Preisanpassungsklauseln,\n die in den meisten Verträgen\nvorhanden waren, waren unzulässig.\n Und die Verbraucher brauchten die\nerhöhten Preise nicht zu zahlen.\n Ein Urteil mit Breitenwirkung.\n Es kam zu Rückzahlungen an\nErdgaskunden von bis zu 5.000 Euro.\n Gleich gegenüber von Hartmut Müller\n kümmert sich Sabine Fischer-Volk\n  um die Rechte von Reisenden.\n Ihr Lieblingsthema im Moment:\n Plötzliche kurzfristige\n    Umbuchungen von Flügen\n durch die Fluggesellschaften selbst.\n Die muss man aber\n  nicht einfach so hinnehmen.\n Wenn z.B.ein Flug, den man\ngebucht hat, stattgefunden hat.\n Man aber auf einen anderen Flug\n    verlegt wurde, ist das\n eine Verweigerung der Beförderung\n  auf den ursprünglichen Flug.\n Bis zu 600 Euro Entschädigung\n   kann Reisenden zustehen,\n wenn ein Flug verschoben wird.\n Zurück zu Gabriele Bandow.\n Schon nach der ersten Beratung\n       ist für sie klar,\n sie wird sich gegen\n   die Mahnbescheide wehren.\n Ich möchte Gerechtigkeit haben.\n Es kann nicht sein, dass\nUnternehmen die Bürger auffordern,\n Geld zu bezahlen für Sachen,\ndie sie gar nicht zu kriegen haben.\n 15 Euro wird sie\n   die Beratung hier kosten.\n Das Geld aber ist es ihr wert.\n "^^xsd:string .
+
+<http://example.org/document80#char=321,343>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berliner Hauptbahnhofs"^^xsd:string ;
+        nif:beginIndex        "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document80#char=0,1327> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin_Hauptbahnhof> .
+
+<http://example.org/document72#char=1035,1043>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Zimbabwe"^^xsd:string ;
+        nif:beginIndex        "1035"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1043"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Zimbabwe> .
+
+<http://example.org/document80#char=1106,1125>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Antenne Brandenburg"^^xsd:string ;
+        nif:beginIndex        "1106"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document80#char=0,1327> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Antenne_Brandenburg> .
+
+<http://example.org/document79#char=650,671>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Kronprinzessin Amalia"^^xsd:string ;
+        nif:beginIndex        "650"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Catharina-Amalia_van_Oranje> .
+
+<http://example.org/document79#char=172,187>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "rbb-Kulturradio"^^xsd:string ;
+        nif:beginIndex        "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Kulturradio> .
+
+<http://example.org/document74#char=569,617>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bundesarbeitsministerin\n    Ursula von der Leyen"^^xsd:string ;
+        nif:beginIndex        "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Ursula_von_der_Leyen> .
+
+<http://example.org/document72#char=364,380>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Barbra Streisand"^^xsd:string ;
+        nif:beginIndex        "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Barbra_Streisand> .
+
+<http://example.org/document72#char=404,410>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document76#char=797,815>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Freundschaftsinsel"^^xsd:string ;
+        nif:beginIndex        "797"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Freundschaftsinsel> .
+
+<http://example.org/document80#char=724,757>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bundesernährungsministerin Aigner"^^xsd:string ;
+        nif:beginIndex        "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document80#char=0,1327> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Ilse_Aigner> .
+
+<http://example.org/document79#char=541,559>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Prinzessin Beatrix"^^xsd:string ;
+        nif:beginIndex        "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Beatrix_(Niederlande)> .
+
+<http://example.org/document72#char=1121,1138>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Barbara Streisand"^^xsd:string ;
+        nif:beginIndex        "1121"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Barbra_Streisand> .
+
+<http://example.org/document78#char=273,296>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Freie Volksbühne Berlin"^^xsd:string ;
+        nif:beginIndex        "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document78#char=0,1875> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Volksb%C3%BChne> .
+
+<http://example.org/document74#char=44,66>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Schloss Charlottenburg"^^xsd:string ;
+        nif:beginIndex        "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Schloss_Charlottenburg> .
+
+<http://example.org/document72#char=588,596>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "O2 World"^^xsd:string ;
+        nif:beginIndex        "588"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/O2_World_Berlin> .
+
+<http://example.org/document72#char=4,22>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Fußball-Bundesliga"^^xsd:string ;
+        nif:beginIndex        "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Fu%C3%9Fball-Bundesliga> .
+
+<http://example.org/document74#char=554,566>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin Mitte"^^xsd:string ;
+        nif:beginIndex        "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Mitte> .
+
+<http://example.org/document72#char=1060,1067>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Florida"^^xsd:string ;
+        nif:beginIndex        "1060"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Florida> .
+
+<http://example.org/document71#char=244,254>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Haasenburg"^^xsd:string ;
+        nif:beginIndex        "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Stadtautobahn> .
+
+<http://example.org/document79#char=124,128>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Prag"^^xsd:string ;
+        nif:beginIndex        "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Prag> .
+
+<http://example.org/document72#char=1628,1635>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Barbara"^^xsd:string ;
+        nif:beginIndex        "1628"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document72#char=0,1845> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Barbra_Streisand> .
+
+<http://example.org/document74#char=108,113>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Obama"^^xsd:string ;
+        nif:beginIndex        "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Barack_Obama> .
+
+<http://example.org/document71#char=306,319>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Stadtautobahn"^^xsd:string ;
+        nif:beginIndex        "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Stadtautobahn> .
+
+<http://example.org/document79#char=158,164>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Ersten"^^xsd:string ;
+        nif:beginIndex        "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Das_Erste> .
+
+<http://example.org/document79#char=455,471>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Willem-Alexander"^^xsd:string ;
+        nif:beginIndex        "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Willem-Alexander> .
+
+<http://example.org/document76#char=819,826>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Potsdam"^^xsd:string ;
+        nif:beginIndex        "819"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Postdam> .
+
+<http://example.org/document77#char=297,315>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berliner Mauerpark"^^xsd:string ;
+        nif:beginIndex        "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Mauerpark> .
+
+<http://example.org/document79#char=13,25>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Simon Rattle"^^xsd:string ;
+        nif:beginIndex        "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Simon_Rattle> .
+
+<http://example.org/document79#char=89,92>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "rbb"^^xsd:string ;
+        nif:beginIndex        "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Rundfunk_Berlin-Brandenburg> .
+
+<http://example.org/document77#char=1178,1195>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Borussia Dortmund"^^xsd:string ;
+        nif:beginIndex        "1178"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Borussia_Dortmund> .
+
+<http://example.org/document76#char=2185,2193>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "dams.\n D"^^xsd:string ;
+        nif:beginIndex        "2185"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Postdam> .
+
+<http://example.org/document76#char=41,50>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Kreuzberg"^^xsd:string ;
+        nif:beginIndex        "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Kreuzberg> .
+
+<http://example.org/document74#char=623,664>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bundesforschungsministerin\n Johanna Wanka"^^xsd:string ;
+        nif:beginIndex        "623"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Johanna_Wanka> .
+
+<http://example.org/document79#char=199,210>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Niederlande"^^xsd:string ;
+        nif:beginIndex        "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document79#char=0,678> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Niederlande> .
+
+<http://example.org/document71#char=952,963>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "952"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document71#char=0,1465> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document73#char=3,19>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Eisenhüttenstadt"^^xsd:string ;
+        nif:beginIndex        "3"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document73#char=0,3543> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Eisenh%C3%BCttenstadt> .
+
+<http://example.org/document74#char=0,682>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "682"^^xsd:nonNegativeInteger ;
+        nif:isString    "Und das ist noch nicht alles.\n Auch rund um Schloss Charlottenburg\n           Großsperrung.\n Denn hier wird Obama\n      wohl zu Abend essen.\n Spürnase Lilly hat also\nfür die Sicherheit des Präsidenten\n noch viel zu erschnüffeln.\n Ein integratives Bildungssystem:\n Dazu hat sich Deutschland\nverpflichtet, auf allen Ebenen.\n Das bedeutet auch die Einführung\n        der \"Inklusion\",\n des gemeinsamen Unterrichts von\nBehinderten und Nichtbehinderten.\n Das war heute Thema auf einer\nnationalen Konferenz in Berlin:\n Die begann heute Mittag\nim Cafe Moskau in Berlin Mitte.\n Bundesarbeitsministerin\n    Ursula von der Leyen und\n Bundesforschungsministerin\n Johanna Wanka eröffneten sie.\n "^^xsd:string .
+
+<http://example.org/document74#char=539,550>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Cafe Moskau"^^xsd:string ;
+        nif:beginIndex        "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document74#char=0,682> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Caf%C3%A9_Moskau> .
+
+<http://example.org/document78#char=96,112>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Thomas Oberender"^^xsd:string ;
+        nif:beginIndex        "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document78#char=0,1875> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Thomas_Oberender> .
+
+<http://example.org/document77#char=2142,2153>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Schöneweide"^^xsd:string ;
+        nif:beginIndex        "2142"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Sch%C3%B6neweide> .
+
+<http://example.org/document76#char=1696,1703>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "zow.\n S"^^xsd:string ;
+        nif:beginIndex        "1696"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document76#char=0,2489> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Kartzow> .
+
+<http://example.org/document77#char=677,684>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Wedding"^^xsd:string ;
+        nif:beginIndex        "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document77#char=0,2353> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Wedding> .

@@ -1,0 +1,578 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/document30#char=743,752>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Kreuzberg"^^xsd:string ;
+        nif:beginIndex        "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document30#char=0,851> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Kreuzberg> .
+
+<http://example.org/document26#char=255,290>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Ministerpräsident\n         Platzeck"^^xsd:string ;
+        nif:beginIndex        "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Matthias_Platzeck> .
+
+<http://example.org/document26#char=421,429>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Platzeck"^^xsd:string ;
+        nif:beginIndex        "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Matthias_Platzeck> .
+
+<http://example.org/document28#char=113,121>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Herzberg"^^xsd:string ;
+        nif:beginIndex        "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Herzberg> .
+
+<http://example.org/document25#char=105,111>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document25#char=56,67>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document30#char=0,851>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "851"^^xsd:nonNegativeInteger ;
+        nif:isString    "Wir können für Betroffene singen,\n       Solidarität zeigen,\n und natürlich auch Geld sammeln.\n Berliner unterstützen Flutopfer:\n Mal musikalisch,\n  mal direkt im Krisengebiet.\n Vor allem wollen sie eines:\n       Hoffnung spenden.\n Dramatische Bilder\nerreichen uns am Abend aus Istanbul.\n Die türkische Polizei stürmte den\nseit zwei Wochen von Demonstranten\n besetzten Gezi-Park.\n Polizisten räumten den Park\n     am Abend vollständig,\n wie Korrespondenten berichteten.\n Zuvor waren die Sicherheitskräfte\n bereits mit Wasserwerfern\n         und Tränengas\n gegen Protestierende auf dem\nnahen Taksim-Platz vorgegangen.\n Erschrocken und voller Bangen\n verfolgen auch Berliner den Einsatz\n im Protestzelt am Cottusser Tor.\n Mit einer Sitz-Demo in Kreuzberg\n  wollen Demonstranten morgen\n ihre Solidarität mit der türkischen\n     Protestbewegung kundtun.\n "^^xsd:string .
+
+<http://example.org/document21#char=0,41>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bundesforschungsministerin\n Johanna Wanka"^^xsd:string ;
+        nif:beginIndex        "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document21#char=0,2141> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Johanna_Wanka> .
+
+<http://example.org/document21#char=1244,1251>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Storkow"^^xsd:string ;
+        nif:beginIndex        "1244"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document21#char=0,2141> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Storkow_(Mark)> .
+
+<http://example.org/document26#char=995,1014>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Heizkraftwerk Rudow"^^xsd:string ;
+        nif:beginIndex        "995"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Heizkraftwerk_Berlin-Rudow> .
+
+<http://example.org/document25#char=716,723>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Ukraine"^^xsd:string ;
+        nif:beginIndex        "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Ukraine> .
+
+<http://example.org/document29#char=843,850>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "843"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document29#char=954,959>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Mitte"^^xsd:string ;
+        nif:beginIndex        "954"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "959"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Mitte> .
+
+<http://example.org/document28#char=435,442>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Cottbus"^^xsd:string ;
+        nif:beginIndex        "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Cottbus> .
+
+<http://example.org/document21#char=1941,1953>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Birkenwerder"^^xsd:string ;
+        nif:beginIndex        "1941"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1953"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document21#char=0,2141> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Birkenwerder> .
+
+<http://example.org/document24#char=68,84>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "aturkundemuseum."^^xsd:string ;
+        nif:beginIndex        "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document24#char=0,2149> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Museum_f%C3%BCr_Naturkunde_(Berlin)> .
+
+<http://example.org/document23#char=258,264>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document23#char=0,1836> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document23#char=1474,1482>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bukarest"^^xsd:string ;
+        nif:beginIndex        "1474"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document23#char=0,1836> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Bukarest> .
+
+<http://example.org/document27#char=0,2811>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2811"^^xsd:nonNegativeInteger ;
+        nif:isString    "Eine Zwischennutzung\n    wie etwa vor zwei Jahren\n bei der Kunstausstellung\n       \"Based in Berlin\"\n soll es nicht mehr geben.\n Hingegen die Strandbar und das\n dazugehörige Hexenkessel Hoftheater\n          im Monbijoupark\n dürfen aufgrund einer befristeten\nDuldung durch den Bezirk bleiben.\n \"Irren ist amtlich\n    - Beratung kann helfen!\"\n Das ist der Slogan einer Aktion\nder Berliner Arbeitslosenzentrums.\n Und diese Beratung kommt\ndirekt vor die Tür der Jobcenter.\n Mit einem Beratungsbus\n    der Wohlfahrtsverbände.\n Sozialarbeiter und Fachanwälte\n   beantworten gleich vor Ort\n Fragen zu Hartz IV\n     und prüfen Bescheide.\n Und das auch noch kostenlos.\n \"Irren ist amtlich\n    - Beratung kann helfen!\"\n Genau das\nhat dieser Berliner auch erlebt.\n Michael Sabe ist Kraftfahrer.\n Im Mai und Juni\n    bekam er vom Arbeitgeber\n nur einen Teil\n   des vereinbarten Gehaltes\n und kündigte.\n Im Juli nahm er einen neuen Job\nals Fahrer an, als Geringverdiener.\n Laut Arbeitsvertrag bekommt\ner einen Stundenlohn von 5,50 Euro.\n Also 400 Euro im Monat.\nUnd das für eine 35-Stunden-Woche.\n Doch das kann nicht stimmen.\n Nachgerechnet ergibt sich\nein Stundenlohn von rund 2,85 Euro.\n Ein Missstand,\nder dem Jobcenter nicht auffiel.\n Als Geringverdiener ist Sabe\nauf staatliche Hilfe angewiesen.\n Zumal er nach 2 Tagen\n     schon wieder rausflog.\n Doch das ist nicht so einfach.\n Ich war seit dem 1.7.\ndreimal beim Jobcenter Neukölln.\n Keine Reaktion bisher.\n Kein Geld auf dem Konto,\n     kein Bescheid bisher.\n Andere warten sogar\n      monatelang auf Geld.\n Bei Konflikten\n  mit dem Jobcenter zu helfen,\n darum geht es am Beratungsbus\n   des Arbeitslosenzentrums.\n Der ist bis 9. August an\nverschiedenen Jobcentern unterwegs.\n Knapp 40 Gespräche\n    werden täglich geführt.\n Denn viele Bescheide sind falsch,\n           u.a. weil:\n ...ein großer Teil der Mitarbeiter\n  nur befristet beschäftigt ist.\n Die Jobcenter selber\n  arbeiten also mit Personal,\n was teilweise fluktuiert.\n Das Rechtsgebiet\n    ist aber so kompliziert,\n dass erfahrene Mitarbeiter\n       gebraucht werden.\n Michael Sabe ist nur einer\nvon geschätzt 140.000 \"Aufstockern\":\n Menschen, die von ihrem Lohn\n      nicht leben können.\n Die Diakonie erwartet\n eine dramatische Entwicklung.\n Z.T. landen sie auf der Straße.\nDie Zahl der Obdachlosen steigt.\n Sie werden versuchen,\n  woanders Hilfe zu bekommen.\n Die Tafeln\nwerden weiteren Zulauf bekommen.\n Wir wissen, dass auf jeden,\nder sich meldet, mind. 2 kommen,\n die sich nicht trauen,\n   um Aufstockung zu bitten.\n Also um soziale Unterstützung.\n Der Senat gibt dafür\n  400 Mio. Euro pro Jahr aus.\n Steuergelder, die wir\ndringend für anderes benötigen.\n Ich kann nicht verstehen,\n warum wir als Steuerzahler\nUnternehmer subventionieren sollen,\n die zu geizig sind,\n  anständige Löhne zu zahlen.\n "^^xsd:string .
+
+<http://example.org/document23#char=202,218>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Flughafens Tegel"^^xsd:string ;
+        nif:beginIndex        "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document23#char=0,1836> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Flughafen_Berlin-Tegel> .
+
+<http://example.org/document23#char=0,1836>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1836"^^xsd:nonNegativeInteger ;
+        nif:isString    "Man soll nicht gleich zu\n        Waffen greifen,\n vielen Dank.\n Eine böse Überraschung werden einige                                \nUrlauber aus unserer Region erleben,\n die ihre Autos in der Nähe\ndes Flughafens Tegel geparkt haben.\n Am Saatwinkler Damm in Berlin haben\nDiebe heute Nacht 55 Autos geknackt.\n Parkgebühren sparen\n      am Flughafen Tegel.\n Deshalb stellen viele Flugreisende\nihre Autos im Saatwinkler Damm ab.\n Und 55 davon hatten nun Pech:\n Zwischen 1 und 2 Uhr nachts\n  waren ein oder mehrere Täter\n hier auf Beutezug.\n Die Täter haben\ndie Seitenscheiben eingeschlagen.\n Sie durchwühlten\n      die Handschuhfächer.\n Wir gehen davon aus, dass\nsie v.a. Kleingeld etc. suchten.\n Die Radios blieben in den Autos.\n Deshalb geht die Polizei davon aus,\n dass keine Profis am Werk waren.\n Dass sie nur\n auf schnelles Geld aus waren,\n das jemand im Auto\n  zurückgelassen haben könnte.\n Oft werden gezielt Airbags\noder Navigationsgeräte ausgebaut.\n Vielleicht haben es die Täter aber\nauch auf Fahrzeugpapiere abgesehen.\n Laut Polizei benötigten sie\nmindestens 1 Stunde für die Autos.\n Erst gegen 3 Uhr meldet sich\n   ein Mann bei der Polizei.\n Er sagt, dass sein Pkw\n    aufgebrochen worden sei.\n Bisher konnten die Beamten nur eine\nkurze Spurensicherung durchführen.\n Wir gehen davon aus,\ndass die meisten Fahrzeughalter\n weggeflogen sind vom Flughafen\n  und den Wagen dort parkten.\n Von den 55 Haltern konnten wir\n  bisher nur einen erreichen.\n Selbst ein Pkw aus Bukarest wurde\n im Saatwinkler Damm abgestellt.\n Vermutlich ist der Besitzer\n  auf Ferienreise in Rumänien.\n Der Saatwinkler Damm\n       ist bekannt dafür,\n dass Fluggäste\n  hier gerne mal Dauerparken.\n Man sieht, es ist wichtig, wenn man\n einen Wagen dort lange abstellt,\n erkennbar nichts im Auto zu lassen.\n Möglichst sollte\ndas Handschuhfach geöffnet sein.\n "^^xsd:string .
+
+<http://example.org/document30#char=278,286>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Istanbul"^^xsd:string ;
+        nif:beginIndex        "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document30#char=0,851> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Istambul> .
+
+<http://example.org/document21#char=1150,1162>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Birkenwerder"^^xsd:string ;
+        nif:beginIndex        "1150"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document21#char=0,2141> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Birkenwerder> .
+
+<http://example.org/document27#char=210,222>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Monbijoupark"^^xsd:string ;
+        nif:beginIndex        "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document27#char=0,2811> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Monbijoupark> .
+
+<http://example.org/document26#char=0,1611>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1611"^^xsd:nonNegativeInteger ;
+        nif:isString    "Jeder Erstwohnsitz\n     bringt über 2000 Euro.\n Allerdings - so Nussbaum:\nMehr Berliner kosten auch mehr Geld.\n Für Ende Juni\nplant der Senat den Kassensturz.\n Dann weiß auch der\n   Stadtentwicklungssenator,\n wie weit er sich strecken muss.\n Brandenburgs Ministerpräsident\n         Platzeck liegt\n mit Kreislaufproblemen\nin einem Potsdamer Krankenhaus.\n Er hat alle Termine\n   für diese Woche abgesagt.\n Noch gestern war Platzeck\nin den Hochwassergebieten unterwegs.\n In der Prignitz\n wurde der Katastrophenalarm\n     am Abend aufgehoben.\n Komplette Entwarnung gibt es\n   für die Region noch nicht.\n Und wir haben weitere Nachrichten\n    für Sie im Kurzüberblick.\n Im Tarifkonflikt bei Air Berlin\n kündigten die Piloten\n        Warnstreiks an.\n Die Vereinigung Cockpit erklärte,\n nach monatelangen erfolglosen\nVerhandlungen sei ab Mitte der Woche\n mit Arbeitsniederlegungen\n          zu rechnen.\n Die bisherigen Angebote der\nFluggesellschaft seien unzureichend\n und nicht verhandlungsfähig.\n Im Heizkraftwerk Rudow\n        brach am Morgen\n in einem Holzspänebunker\n         ein Brand aus.\n Die Löscharbeiten waren kompliziert.\n Die Feuerwehr wollte vermeiden, dass                                \n  das Kraftwerk abgeschaltet wird.\n Menschen waren nicht gefährdet, auch                                \nfür die Umwelt bestand keine Gefahr.\n Die Brandursache ist\n  laut Feuerwehr noch unklar.\n Die Genehmigung für die umstrittene\n  Schweinemastanlage in Haßleben\n steht unmittelbar bevor.\n Der Leiter der für die Zulassung\nzust. Abteilung des Landesamtes\n für Umweltschutz, Lieske,\n   sagte Brandenburg Aktuell,\n "^^xsd:string .
+
+<http://example.org/document29#char=484,489>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Mitte"^^xsd:string ;
+        nif:beginIndex        "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Mitte> .
+
+<http://example.org/document25#char=225,232>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Potsdam"^^xsd:string ;
+        nif:beginIndex        "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Postdam> .
+
+<http://example.org/document29#char=1679,1686>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "1679"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document29#char=1500,1507>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "1500"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document22#char=1059,1065>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document22#char=0,1600> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document25#char=0,2684>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2684"^^xsd:nonNegativeInteger ;
+        nif:isString    "Die jungen Leute gehen,\n     die älteren bleiben.\n Auch Brandenburg\n        hat solche Ecken\n und selbst Berlin\n  hat Bezirke mit Ärztemangel.\n Das ist eins der Probleme, über die\ndie Gesundheitsminister der Länder\n heute in Potsdam beraten haben.\n Und sicher auch über Lösungen.\n Eine davon heißt:\nÄrzte aus dem Ausland anlocken.\n Deren Qualifikationen müssen\n hier erstmal anerkannt werden,\n und bislang hat jedes Bundesland\n    dafür andere Kriterien.\n Im Dschungel der Bürokratie\n  bleibt das eigentliche Ziel:\n Mehr Ärzte auf der Strecke.\n Jetzt sind es\n    nur noch Patientenakten.\n Was aber deutsche Bürokratie\n         wirklich ist,\n lernte Haitham Abuhashish kennen.\n Er ist Jordanier,\n    studierte in der Ukraine\n und will jetzt in Lübben\nFacharzt für Anästhesie werden.\n Immer wieder musste er nachweisen,\n dass er gut genug Deutsch kann.\n Im Prinzip in jedem Bundesland neu.\n Das musste ich alles\n    noch einmal wiederholen,\n die medizinische Terminologie\n      auf Deutsch wissen.\n Das gleiche Spiel\n     bei der Arztzulassung.\n Auch hier prüft\njedes Bundesland bisher selbst.\n In Zukunft soll das anders sein.\n Berufsqualifikation\n      und Sprachkenntnisse\n sollen einheitlich abgefragt werden.\n Die Gesundheitsminister versprechen\n sich davon auch höhere Standards.\n Dazu brauchen wir, denke ich schon,\n    eine einheitliche Regelung,\n dass sie alle gleichermaßen\nüber gute Sprachkenntnisse verfügen,\n um mit den Patienten\n    kommunizieren zu können.\n Aber vor allem auch,\n um sich ihrer medizinischen\nFachsprache bedienen zu können,\n sodass es auch\n    zu wenig Risiken kommt.\n Da wollen wir Verabredungen treffen\n und eine länderübergreifende\n  Gutachterstelle einrichten.\n Auch Klinken erhoffen sich viel\nvon einem neuen Zulassungsverfahren.\n Dass die Bürokratie\n     deutlich weniger wird,\n weil wir ein an einem Ort\n  anerkanntes Verfahren haben,\n eigentlich nur noch prüfen,\n  ob er alle Unterlagen hat.\n Uns als Unternehmen und\nKrankenhäuser bleibt Arbeit erspart.\n Und dem Kollegen\n     bleibt Arbeit erspart,\n immer wieder neue Anträge\n     für etwas zu stellen,\n das er eigentlich\n      längst erledigt hat.\n Am Ende wäre es\n für die Ärzte also einfacher,\n zwischen den Bundesländern\n          zu wechseln.\n Brandenburg könnte so womöglich\nleichter Mediziner aufs Land lotsen.\n Denn anders als manche\n   seiner deutschen Kollegen\n hat Haitham Abuhashish das Angebot\n aus Lübben nicht ausgeschlagen.\n Dieses Arbeitsklima kann man nicht\nin anderen Krankenhäusern finden.\n Ich arbeitete schon in anderen\nLändern und anderen Krankenhäusern.\n Und das war nicht so wie hier.\n    Hier ist es viel besser.\n Ich finde, es ist super.\n  Oder prima, kann man sagen.\n "^^xsd:string .
+
+<http://example.org/document24#char=0,2149>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2149"^^xsd:nonNegativeInteger ;
+        nif:isString    "In den vergangenen zwei Monaten\n  kamen rund 100.000 Menschen\n ins Naturkundemuseum.\n Bis Sonntag ist Knut\n     im Foyer ausgestellt.\n Danach kommt er vorerst\n in die wissenschaftlichen Sammlungen                                \n       des Naturkundemuseums.\n Auf dem Friedhof in Biesdorf\nwurde heute das Baby bestattet,\n das vor drei Wochen in Hellersdorf\n      tot aufgefunden wurde.\n Drei Polizisten ermöglichten auf\nprivate Initiative die Beisetzung.\n Gegen die Mutter des Kindes\n   und ihren Lebensgefährten\n wird wegen Mordes ermittelt.\n Sie hatten den Jungen offenbar\nverhungern und verdursten lassen.\n Auf Wunsch der Beamten blieben wir\n bei der Trauerfeier auf Abstand.\n Die Trauergäste verließen den\n Friedhof sprachlos und ratlos.\n Die Eltern des beerdigten Säuglings\n   sitzen in Untersuchungshaft.\n Ein Kind verdursten zu lassen\nund noch in der Wohnung zu bleiben,\n in den Tagen.\n Da kriegt man Gänsehaut.\n Man kann nicht fassen, wie\nman so etwas übers Herz bringt.\n Eltern von Kleinkindern\n      ging das Schicksal\n des vor drei Wochen gestorbenen\n        Säuglings nahe.\n Sie erlebten eine intime\n  und würdevolle Trauerfeier.\n Der Pastor fand dabei\n     die richtigen Worte.\n Wir sind gekommen um zu\n  trauern, nicht um urteilen.\n Können wir verstehen, dass es\n   nichts zu verstehen gibt?\n Der Sarg stand in der Mitte.\n Als im Moment der Stille\n  ein Baby zu schreien begann,\n ließen einige Gäste\n   ihrer Trauer freien Lauf.\n Polizisten der zuständigen\n         Mordkommission\n organisierten die Beisetzung.\n Ohne sie und die evangelische\n  Kirchengemeinde Hellersdorf\n hätte der Säugling\nkeinen würdigen Abschied erhalten.\n Wir haben nach Trost gesucht.\n Und versucht die Arbeit derer,\n    die für diese Geschichte\n zuständig waren, zu würdigen.\n Die Arbeit der Polizei.\n Sie fand den schon\n     verdursteten Säugling\n nach einem Zeugenhinweis\n in einem Park in Hellersdorf.\n Gegen die Mutter und ihren Partner\n ermittelt die Staatsanwaltschaft\n wegen Totschlags.\n Möglich ist auch eine Anklage\n         wegen Mordes.\n Am Leichenfundort gedenken\n  Anwohner des kleinen Jungen\n weiterhin mit Kuscheltieren\n       und Botschaften.\n "^^xsd:string .
+
+<http://example.org/document25#char=743,749>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Lübben"^^xsd:string ;
+        nif:beginIndex        "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/L%C3%BCbben_(Spreewald)> .
+
+<http://example.org/document21#char=567,578>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document21#char=0,2141> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document24#char=281,289>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "iesdorf\n"^^xsd:string ;
+        nif:beginIndex        "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document24#char=0,2149> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin-Biesdorf> .
+
+<http://example.org/document26#char=749,768>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Vereinigung Cockpit"^^xsd:string ;
+        nif:beginIndex        "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "768"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Entity> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Vereinigung_Cockpit> .
+
+<http://example.org/document22#char=1462,1468>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "1462"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document22#char=0,1600> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document22#char=279,291>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Frank Henkel"^^xsd:string ;
+        nif:beginIndex        "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document22#char=0,1600> ;
+        itsrdf:taClassRef     <http://example.org/Person> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Frank_Henkel> .
+
+<http://example.org/document28#char=816,820>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Elbe"^^xsd:string ;
+        nif:beginIndex        "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Elbe> .
+
+<http://example.org/document26#char=686,696>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Air Berlin"^^xsd:string ;
+        nif:beginIndex        "686"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Air_Berlin> .
+
+<http://example.org/document30#char=369,378>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Gezi-Park"^^xsd:string ;
+        nif:beginIndex        "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document30#char=0,851> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Gezi-Park> .
+
+<http://example.org/document23#char=1572,1580>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Rumänien"^^xsd:string ;
+        nif:beginIndex        "1572"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document23#char=0,1836> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Rum%C3%A4nien> .
+
+<http://example.org/document22#char=1243,1254>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Deutschland"^^xsd:string ;
+        nif:beginIndex        "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document22#char=0,1600> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Deutschland> .
+
+<http://example.org/document28#char=75,90>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Bad Liebenwerda"^^xsd:string ;
+        nif:beginIndex        "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Bad_Liebenwerda> .
+
+<http://example.org/document26#char=1452,1460>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Haßleben"^^xsd:string ;
+        nif:beginIndex        "1452"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Ha%C3%9Fleben> .
+
+<http://example.org/document26#char=475,483>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Prignitz"^^xsd:string ;
+        nif:beginIndex        "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Prignitz> .
+
+<http://example.org/document28#char=426,431>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Spree"^^xsd:string ;
+        nif:beginIndex        "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Spree> .
+
+<http://example.org/document29#char=1937,1951>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Campus Virchow"^^xsd:string ;
+        nif:beginIndex        "1937"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Rudolf-Virchow-Krankenhaus> .
+
+<http://example.org/document29#char=1418,1425>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document29#char=757,764>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "757"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document29#char=0,2737>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2737"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ich nehme Kokain, weil ich dann mehr                                \n      Alkohol vertragen kann.\n Ich brauche hinterher\n   zum Runterkommen Cannabis,\n weil ich sonst zu depressiv werden,\n  wenn ich Kokain genommen habe.\n So sind viele\nvon gleich mehreren Drogen abhängig.\n In der Klinik schaffen es im Schnitt                                \n    rund 30% raus aus der Sucht.\n Aber bis dahin\n     ist es ein langer Weg.\n Es ist das Wahrzeichen der Charite,\n   das Betten-Hochhaus in Mitte.\n Aber der äußere Schein trügt, das\nGebäude ist sanierungsbedürftig.\n Dafür aber braucht es viel Geld.\n Derzeit laufen in Berlin\n         die Beratungen\n für den Haushalt 2014 und 2015.\n Dummerweise hat gerade erst\n       der Rechnungshof\n Verschwendungen\n   bei der Charite angemahnt.\n Heute nun sollten sich die\nAbgeordneten vor Ort informieren.\n Die Charite ist groß,\nauch deshalb braucht sie viel Geld.\n Z.B. 185 Mio. für die Sanierung\ndes Bettenhochhauses in Mitte.\n Ab August müssen hier\n      alle Kranken raus.\n die Patienten werden dann\n    in einem neuen Gebäude\n neben dem alten Betten-Hochhaus\nbetreut. Gebaut aus Containern.\n Das sieht man dem Haus\n   allerdings nicht mehr an.\n Nach den Bauarbeitern\nsind die Abgeordneten die ersten,\n die mal schauen dürfen, wie es hier\naussieht und wie man hier schläft.\n Ende 2016 soll\ndas Betten-Hochhaus fertig sein.\n Doch den Optimismus trübte gerade\n  der Rechnungshof, die Charite\n habe die Kosten schöngerechnet.\n Und 41 Mio zu wenig veranschlagt.\n  Der Charite-Chef wehrt sich.\n Es gab ordentliche Kalkulationen.\n Es ist am Ende eine\n     Frage der Betrachtung.\n Wie geht man\nmit der Zuordnung von Beträgen um?\n Am Ende wird es die Charite\naus eigener Kraft stemmen müssen.\n Wir werden am Ende nicht mehr Geld\n   verlangen müssen und wollen.\n Und schon geht es weiter\n     zur nächsten Station.\n Auch unterwegs werden\n  die Abgeordneten beschallt,\n Infos gratis zum Häppchen:\n   Ankunft am Campus Virchow.\n Die Häuser stammen\n      z.T. aus den 70ern.\n Natürlich soll auch hier\n        saniert werden.\n Die Rettungsstellen z.B.\n Aus drei soll eine moderne\n        gemacht werden.\n Ziemlich am Ende\n    auch die Elektroanlage.\n In den nächsten 20 Jahren braucht\n die die Charite laut Masterplan\n rund 600 Mio. Euro.\n Viel Geld für das\nklamme, pleite Berlin, zu viel?\n Die Abgeordneten\n   sind da weniger skeptisch.\n Den Masterplan\n   bis ins nächste Jahrzehnt,\n 600 Mio. in Scheiben aufgeteilt,\n       unterstützen wir.\n Wobei uns auch wichtig ist,\n     dass alle 3 Standorte\n gleich ausgestattet werden:\n Wir möchten überall\n     eine Grundversorgung,\n wir möchten eine gleichmäßige\nVerteilung der Schwerpunktbereiche\n und eine gleichmäßige Verteilung\n der Forschung auf alle 3 Standorte.\n "^^xsd:string .
+
+<http://example.org/document29#char=2217,2224>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "2217"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document30#char=591,603>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Taksim-Platz"^^xsd:string ;
+        nif:beginIndex        "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document30#char=0,851> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Taksim-Platz> .
+
+<http://example.org/document22#char=0,1600>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1600"^^xsd:nonNegativeInteger ;
+        nif:isString    "Ordnung machen, muss in einer Woche\n      auch der Aufsichtsrat.\n In einer Geschäftsführung,\ndie zerstrittener nicht sein könnte.\n Berlins Innensenator musste\nzuletzt wegen der Ermittlungspannen\n im Zusammenhang mit den NSU Morden\nviel erklären und beschwichtigen.\n Heute musste Frank Henkel\n   sich nicht rechtfertigen.\n Er stellte den neuen\n Verfassungsschutz-Bericht vor.\n Die relevanten Ergebnisse fasst\nNorbert Siegmund für Sie zusammen.\n Kistenweise Erkenntnisse über\nverfassungsfeindliche Bestrebungen.\n Zusammengetragen von einer Behörde,\n die in der NSU-Affäre\n  selbst ins Zwielicht geriet.\n Doch der Innensenator will\nweder auf den Dienst verzichten,\n noch auf den Einsatz von V-Leuten.\n Mit Blick auf Gefahren\nnicht nur durch rechten Terror,\n sondern auch\n  durch islamistische Gewalt.\n Im Berichtsjahr 2012 sorgten\n   u.a. sie für Schlagzeilen:\n Salafisten, die auf der Straße\n     den Koran verteilten.\n Sie sind die Extremistengruppe mit\ndem relativ wohl stärksten Zulauf.\n Zwar wurde eines ihrer Netzwerke\n           verboten.\n Doch allein in Berlin zählt der\nVerfassungsschutz 400 Salafisten.\n Die Hälfte gilt als gewaltbereit.\n Im Internet mobilisieren\nHassprediger auch für den Krieg\n gegen das Assad-Regime in Syrien.\n Aus Deutschland sollen bereits\n60 selbsternannte Gotteskrieger\n in den Kampf gezogen sein,\ndavon aus Berlin rund ein Dutzend.\n Schön, dass die fort sind,\n       lästern Kritiker.\n Doch sie bleiben eine Gefahr\n          für Berlin.\n Natürlich kann ich\n      nicht ausschließen,\n dass sie irgendwann zurückkommen.\n Und später sogar\n   weitaus gefährlicher sind.\n "^^xsd:string .
+
+<http://example.org/document29#char=612,618>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "612"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document21#char=0,2141>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2141"^^xsd:nonNegativeInteger ;
+        nif:isString    "Bundesforschungsministerin\n Johanna Wanka eröffneten sie.\n Über 400 Teilnehmer aus\n         Wissenschaft,\n Politik und der Bildungsverwaltung\ndiskutieren hier bis morgen darüber,\n wie das gemeinsame Lernen\n    ausgebaut werden kann.\n Eine gute Nachricht:\n     es funktioniert schon.\n Immer mehr behinderte Schüler\n  besuchen reguläre Schulen.\n Jeder 4. Schüler mit Behinderung\ngeht schon auf eine Regelschule.\n Gleichzeitig bleibt die Anzahl der\n   Förderschüler fast konstant.\n Weil es mehr Schüler\n     mit Förderbedarf gibt.\n Wie funktioniert Inklusion\n        in Brandenburg?\n Mal so, mal so, berichtet\nJoachim Rüetschi an zwei Beispielen:\n Man muss es wollen.\n    Und dann schafft man's.\n So ist das mit dem Abitur.\n Jan Gabelmann ist einer\n        von 46 Schülern\n mit frisch gedrucktem Zeugnis.\n Das Besondere hier ist,\n       wie man ja weiß,\n dass Behinderte und nicht Behinderte                                \n          zusammen lernen.\n Und sprich: Dass es nichts\nBesonderes ist. Das ist Alltag.\n Gleiche Bedingungen.\n        Gleiche Chancen.\n So übersetzt man\n  das sperrige Wort Inklusion\n hier an der Regine-Hildebrandt-\n    Schule in Birkenwerder.\n Nicht alle Schulen\nlassen sich so ein auf das Thema.\n Die achtjährige Sara aus Storkow\n       ist hörgeschädigt.\n Mit den Schwierigkeiten,\n    die sich daraus ergeben,\n steht sie oft allein.\n Ab und zu trifft man mal\nein Elternteil, was sich einsetzt.\n Aber wirklich auch sehr wenige.\n Weil viele auch Angst haben,\n dass das negativ\n für ihre Kinder werden könnte.\n Ansonsten bekommt man\n    gar keine Unterstützung.\n Sara müsste in der Schule\n    ihre Hörgeräte tragen.\n Um wirklich alles zu verstehen.\n Dies ist aber aufgrund\n des Lärmpegels nicht möglich.\n Das geht nicht. Viel zu laut.\n Das Problem. findet ihre Mutter,\nsind v.a. die zu großen Klassen.\n Weil die Klasse 28 Schüler hat.\n 23 wären super\nfür ein Kind mit Hörschädigung.\n Die beiden Abiturklassen\n        aus Birkenwerder\n haben jeweils 23 Schüler.\n Eine Bedingung\n     für gelebte Inklusion.\n Das bedeutet,\n dass man bei jedem Kind guckt,\n was es noch braucht an zusätzlicher\n     Förderung im Schulalltag.\n "^^xsd:string .
+
+<http://example.org/document29#char=2296,2302>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "2296"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document24#char=1882,1893>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "ellersdorf."^^xsd:string ;
+        nif:beginIndex        "1882"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document24#char=0,2149> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Bezirk_Marzahn-Hellersdorf> .
+
+<http://example.org/document25#char=2237,2248>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Brandenburg"^^xsd:string ;
+        nif:beginIndex        "2237"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Brandenburg> .
+
+<http://example.org/document22#char=1340,1346>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Berlin"^^xsd:string ;
+        nif:beginIndex        "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document22#char=0,1600> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Berlin> .
+
+<http://example.org/document29#char=449,456>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Charite"^^xsd:string ;
+        nif:beginIndex        "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document29#char=0,2737> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/H%C3%B4pital_de_la_Charit%C3%A9> .
+
+<http://example.org/document26#char=1541,1570>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Landesamtes\n für Umweltschutz"^^xsd:string ;
+        nif:beginIndex        "1541"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "1570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document26#char=0,1611> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Landesamt_f%C3%BCr_Umwelt_Landwirtschaft_und_Geologie> .
+
+<http://example.org/document27#char=2374,2380>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Tafeln"^^xsd:string ;
+        nif:beginIndex        "2374"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document27#char=0,2811> ;
+        itsrdf:taClassRef     <http://example.org/Organisation> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Tafel_(Organisation)> .
+
+<http://example.org/document25#char=2400,2406>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Lübben"^^xsd:string ;
+        nif:beginIndex        "2400"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "2406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document25#char=0,2684> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/L%C3%BCbben_(Spreewald)> .
+
+<http://example.org/document28#char=196,212>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Schwarzen Elster"^^xsd:string ;
+        nif:beginIndex        "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Schwarze_Elster> .
+
+<http://example.org/document28#char=0,1177>
+        a               nif:RFC5147String , nif:String , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1177"^^xsd:nonNegativeInteger ;
+        nif:isString    "Doch viele wissen nicht,\n       wohin sie sollen.\n Wo willst du denn hin?\n Bad Liebenwerda ist bald abgesoffen.\n Herzberg ist der Damm gebrochen.\n Und das Wasser steigt weiter in\nder Elbe und der Schwarzen Elster.\n Mühlberg an der Elbe.\n Über 2000 Menschen mussten\n  ihre Wohnungen zu verlassen.\n Unser Kollege Andreas Rauch hat\ndie Situation bis vor einer Stunde\n beobachtet und\nfasst seine Eindrücke zusammen.\n Noch hat die Spree in Cottbus\n      Unterhaltungswert.\n Mühlberg am Abend\n      des ruhig geworden.\n Viele sind der Aufforderung\n des Krisenstabes nachgekommen.\n Sie haben ihre Häuser\n     freiwillig verlassen.\n 17:00 Uhr wurde aufgefordert,\n   die Häuser zu verlassen.\n Und sich sichere Plätze zu suchen.\n Gerade Familien mit Kleinkindern\nsind der Aufforderung nachgekommen.\n Im Moment sieht der Fluss Elbe\n       relativ ruhig aus.\n Der Pegel verharrt seit 1 Stunde\n          bei 9,15 m.\n das ist noch ein Stück entfernt\n    von den Höchst Marken.\n Alte Deiche wurden noch weiter\n         aufgeschüttet.\n Hier ist die Gedenktafel für die\nhistorische Elbe-Flut von 2002.\n Das so genannte Wunder von Mühlberg.\n Damals hatten wir einen Stand\n          von 9,98 m.\n "^^xsd:string .
+
+<http://example.org/document28#char=183,187>
+        a                     nif:RFC5147String , nif:String ;
+        nif:anchorOf          "Elbe"^^xsd:string ;
+        nif:beginIndex        "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext  <http://example.org/document28#char=0,1177> ;
+        itsrdf:taClassRef     <http://example.org/Location> ;
+        itsrdf:taIdentRef     <http://de.dbpedia.org/resource/Elbe> .
